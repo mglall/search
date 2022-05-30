@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="links">
+        <a id="images" href="images.html">Images</a>
+        <a href="index.html">Search</a>
+    </div>
+    <div class="word">
+        <p>Advanced Search</p>
+    </div>
+    <div class="bbutton"></div>
+    <div class="find">
+        <p>Find pages with...</p>
+    </div>
+    <div>
+        <form action="https://google.com/search">
+            <table>
+                <tr>
+                    <td class="rightw">all these words:</td>
+                    <td><input type="text" name="as_q"></td>
+                    <td class="leftw">Type the important words: tri-colour rat terrier</td>
+                </tr>
+                <tr>
+                    <td class="rightw">this exact word or phrase:</td>
+                    <td><input type="text" name="as_epq"></td>
+                    <td class="leftw">Put exact words in quotes: "rat terrier"</td>
+                </tr>
+                <tr>
+                    <td class="rightw">any of these words:</td>
+                    <td><input type="text" name="as_oq"></td>
+                    <td class="leftw">Type OR between all the words you want: miniature OR standard</td>
+                </tr>
+                <tr>
+                    <td class="rightw">none of these words:</td>
+                    <td><input type="text" name="as_eq"></td>
+                    <td class="leftw">Put a minus sign just before words that you don't want:<br> -rodent, -"Jack Russell"</td>
+                </tr>
+            </table>
+            <input  class="subadvanced" type="submit" value="Advanced Search">
+        </form>
+    </div>
     
 </body>
 </html>
